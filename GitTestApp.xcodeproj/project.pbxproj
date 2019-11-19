@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4F3ABF82383F608006B24C8 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F3ABF72383F608006B24C8 /* NextViewController.swift */; };
 		F5E0F4872383F4CE00FD8161 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E0F4862383F4CE00FD8161 /* AppDelegate.swift */; };
 		F5E0F4892383F4CE00FD8161 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E0F4882383F4CE00FD8161 /* SceneDelegate.swift */; };
 		F5E0F48B2383F4CE00FD8161 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E0F48A2383F4CE00FD8161 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A4F3ABF72383F608006B24C8 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 		F5E0F4832383F4CE00FD8161 /* GitTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5E0F4862383F4CE00FD8161 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5E0F4882383F4CE00FD8161 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				F5E0F4862383F4CE00FD8161 /* AppDelegate.swift */,
 				F5E0F4882383F4CE00FD8161 /* SceneDelegate.swift */,
 				F5E0F48A2383F4CE00FD8161 /* ViewController.swift */,
+				A4F3ABF72383F608006B24C8 /* NextViewController.swift */,
 				F5E0F48C2383F4CE00FD8161 /* Main.storyboard */,
 				F5E0F48F2383F4D500FD8161 /* Assets.xcassets */,
 				F5E0F4912383F4D500FD8161 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5E0F48B2383F4CE00FD8161 /* ViewController.swift in Sources */,
+				A4F3ABF82383F608006B24C8 /* NextViewController.swift in Sources */,
 				F5E0F4872383F4CE00FD8161 /* AppDelegate.swift in Sources */,
 				F5E0F4892383F4CE00FD8161 /* SceneDelegate.swift in Sources */,
 			);
