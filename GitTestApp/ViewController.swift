@@ -11,6 +11,13 @@ import UIKit
 class ViewController: UIViewController {
     
     var tossString = String()
+    var Japan = String()
+    var America = String()
+    var Shibuya = String()
+    var Shinjyuku = String()
+    var Ebisu = String()
+    var Shinagawa = String()
+    var TakanawaGateway = String()
     
     override func viewDidLoad() {
         super.viewDidLoad()
