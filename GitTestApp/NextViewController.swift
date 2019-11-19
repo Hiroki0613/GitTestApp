@@ -11,6 +11,8 @@ import UIKit
 class NextViewController: UIViewController {
 
     var acceptString = String()
+    var testString = String()
+    var testArray = [String]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
