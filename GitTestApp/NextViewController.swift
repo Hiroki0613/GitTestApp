@@ -10,6 +10,8 @@ import UIKit
 
 class NextViewController: UIViewController {
 
+    var acceptString　＝ String()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
