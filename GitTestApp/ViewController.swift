@@ -19,6 +19,10 @@ class ViewController: UIViewController {
     var Shinagawa = String()
     var TakanawaGateway = String()
     
+    
+    var test1 = Int()
+    var test2 = Double()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

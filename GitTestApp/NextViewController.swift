@@ -14,11 +14,15 @@ class NextViewController: UIViewController {
     var testString = String()
     var testArray = [String]()
     
+    var testTimer = Timer()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+//        Timer.scheduledTimer(timeInterval: <#T##TimeInterval#>, target: <#T##Any#>, selector: <#T##Selector#>, userInfo: <#T##Any?#>, repeats: <#T##Bool#>)
         // Do any additional setup after loading the view.
     }
+    
     
 
     /*
