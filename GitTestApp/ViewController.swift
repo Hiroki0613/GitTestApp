@@ -29,13 +29,18 @@ class ViewController: UIViewController {
     }
 
 
-/*藤井さん
+
     
-    NextViewControllerに
-     var acceptString　＝ String()
-     と書いてください。
-     
-     それだけです。
-  */
+    /*藤井さん
+      
+      NextViewControllerに
+       var gitString　＝ String()
+       と書いてください。
+       
+       それだけです。
+    */
+
+    
+    
 }
 
