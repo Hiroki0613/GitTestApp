@@ -20,7 +20,7 @@ class NextViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
     var gitString = String()
     
     var imageArray = ["1","2","3","4"]
-    
+    var textArray = ["あいうえお！","かきくけこ！","さしすせそ！","たちつてと！"]
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -39,6 +39,7 @@ class NextViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
         
+        cell.textLabel!.text = textArray[indexPath.row]
         cell.imageView!.image = UIImage(named:imageArray[indexPath.row])
         
         return cell
