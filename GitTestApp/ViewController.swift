@@ -35,7 +35,10 @@ class ViewController: UIViewController {
     }
     
     
- 
+
+    func pictureMarge(){
+        print("次こそ、画像を入れました。")
+    }
 
     
     
