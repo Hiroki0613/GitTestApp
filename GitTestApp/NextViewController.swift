@@ -8,22 +8,55 @@
 
 import UIKit
 
-class NextViewController: UIViewController {
+class NextViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
+    
 
+    @IBOutlet weak var tableView: UITableView!
     var acceptString = String()
     var testString = String()
     var testArray = [String]()
     
     var testTimer = Timer()
-    var gitString　＝ String()
+    var gitString = String()
+    
+    var imageArray = ["1","2","3","4"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        tableView.delegate = self
+        tableView.dataSource = self
+        tableView.reloadData()
 
-//        Timer.scheduledTimer(timeInterval: <#T##TimeInterval#>, target: <#T##Any#>, selector: <#T##Selector#>, userInfo: <#T##Any?#>, repeats: <#T##Bool#>)
-        // Do any additional setup after loading the view.
     }
     
     
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        imageArray.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+        
+        cell.imageView!.image = UIImage(named:imageArray[indexPath.row])
+        
+        return cell
+        
+        
+    }
+
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        
+        return 200
+        
+    }
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        
+        return 1
+        
+    }
 
     /*
     // MARK: - Navigation
