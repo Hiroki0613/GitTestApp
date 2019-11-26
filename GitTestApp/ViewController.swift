@@ -19,26 +19,23 @@ class ViewController: UIViewController {
     var Shinagawa = String()
     var TakanawaGateway = String()
     
-    
     var test1 = Int()
     var test2 = Double()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        gitMarge()
     }
 
 
 
+    func gitMarge(){
+        print("マージしたよ")
+    }
     
-    /*藤井さん
-      
-      NextViewControllerに
-       var gitString　＝ String()
-       と書いてください。
-       
-       それだけです。
-    */
+    
+ 
 
     
     
