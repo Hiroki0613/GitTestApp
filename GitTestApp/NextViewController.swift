@@ -15,7 +15,7 @@ class NextViewController: UIViewController {
     var testArray = [String]()
     
     var testTimer = Timer()
-    
+    var gitString　＝ String()
     override func viewDidLoad() {
         super.viewDidLoad()
 
